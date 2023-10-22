@@ -8,8 +8,11 @@ fi
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-#Proxy
+# Proxy
 export ALL_PROXY="http://127.0.0.1:7890"
+# host_ip=$(cat /etc/resolv.conf |grep "nameserver" |cut -f 2 -d " ")
+# Proxy for WSL
+# export ALL_PROXY="http://$host_ip:7890"
 
 # Path
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH" # Homebrew

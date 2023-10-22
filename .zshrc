@@ -10,8 +10,8 @@ export ZSH="$HOME/.oh-my-zsh"
 
 # Proxy
 export ALL_PROXY="http://127.0.0.1:7890"
-# host_ip=$(cat /etc/resolv.conf |grep "nameserver" |cut -f 2 -d " ")
 # Proxy for WSL
+# host_ip=$(cat /etc/resolv.conf |grep "nameserver" |cut -f 2 -d " ")
 # export ALL_PROXY="http://$host_ip:7890"
 
 # Path
